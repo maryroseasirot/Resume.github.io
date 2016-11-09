@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="Resume.css"/>
+		<title></title>
+	</he
+	<body>
+		<div id="header">
+		<center><p id="name">Mary Rose Bugarin Asirot</p>
+		<a href="mailto:you@yourdomain.com"><p id="email">mararoseasirot23@gmail.com></p></a>
+		<a id="Address">312 Brgy. Sta.Monica Rizal, Nueva Ecija</a></center>
+		<center><img src="C:\Users\ADMIN\Downloads\MARA23\10477885_535857696539993_8010372612719233946_n.jpg"/><center>
+		</div>
+		<div class="left"></div>
+		<div class="right">
+			<h4>Objective</h4>
+			<p>Candidate with a degree in Information Technology intends to work in a growing IT organization as a network security.</p>
+		
+		    <h4>Personal Data</h4>
+		    <ul>
+		    <p>Age :  20 years old</p>
+		    <p>Birthplace : September 23, 1996</p>
+		    <p>	Gender : Female</p>
+		    <p>	Religion : United Church of Christ of the Philippines</p>
+		    <p>Language : Tagalog, Ilocano, English</p>
+		    <p>Height : 5’7 ft.</p>
+		    <p>Citizenship : Filipino</p>
+		    <p>Status : Single</p>
+		</ul>
+
+
+			<h4>Personal Skills</h4>
+			<ul>
+			<li>Consider myself a strong communicator, presenter and listener.</li></ul>
+			<ul><li>Strong interpersonal and communication skills.</li></ul>
+			<ul><li>Ability to work in a team driven environment.</li></ul>
+			<ul><li>High Level of maturity and sense of responsibility.</li></ul>
+			<ul><li>Motivated and always willing to learn new things.</li></ul>
+
+			<h4>Technical Skills</p>
+			<ul><li>Introduction to Computer Programming</li></ul>
+			<ul><li>Object Oriented Programming</li></ul>
+			<ul><li>Basic Introduction of Switching and Routing(CCNA1)</li></ul>
+
+			<h4>Educational Background</h4>
+			<ul>
+			<p>Tertiary Education</p>
+			    <p>BS Information Technology</p>
+			    <p>Major in Networking Security</p>
+			    <p>University of the Cordilleras</p>
+			    <p>September 2015- May 2016</p>
+			</ul>
+
+	        <h4>Character References</h4>
+
+         <ul>
+                <li>Benigno Ponce Paras</li>
+                <p>Brgy. Chairman</p>
+                <p>Brgy. Sta. Monica Rizal, Nueva Ecija</p>
+                <p>+63362125627</p>
+            </ul>
+
+            <script>
+$(document).ready(function(){
+  $('[data-toggle="tooltip]').tooltip();
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event){
+    if(this.hash !== ""){
+
+    event.preDefault();
+
+    var hash = this.hash;
+
+    $('html, body').animate({
+       scrollTop: $(hash).offset().top
+
+      }, 900,function(){
+        window.location.hash=hash;
+
+      });
+  }
+})
+</script>
+
+
+	</body>
+</html>
